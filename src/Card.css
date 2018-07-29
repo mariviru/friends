@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #F1F1F1; }
+
+.Card {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 20px;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 5px 5px #DADADA; }
+
+.Card-header {
+  height: 80px;
+  display: flex;
+  justify-content: flex-start; }
+
+.Card-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px; }
+
+.Card-header-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px; }
+
+.Card-name {
+  font-size: 18px;
+  line-height: 30px; }
+
+.Card-date {
+  font-size: 14px; }
+
+.Card-text {
+  font-size: 14px;
+  line-height: 20px; }
+
+.Card-footer {
+  display: flex;
+  padding-top: 20px;
+  justify-content: space-between; }
+
+.Card-likes {
+  display: flex; }
+
+.fa-heart {
+  font-size: 20px;
+  color: darkred;
+  padding-left: 10px; }
